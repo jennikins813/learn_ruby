@@ -74,7 +74,7 @@ describe "Simon says" do
     end
   end
 
-  describe "titleize" do
+    describe "titleize" do
     it "capitalizes a word" do
       titleize("jaws").should == "Jaws"
     end
